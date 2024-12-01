@@ -2,16 +2,18 @@ import Link from "next/link";
 
 export default function Navigation() {
   return (
-    <ul>
-      <li>
-        <Link href="/">Home</Link>
-      </li>
-      <li>
-        <Link href="/accounts">Go to Accounts</Link>
-      </li>
-      <li>
-        <Link href="/about">Go to About</Link>
-      </li>
-    </ul>
+    <nav>
+      <ul className="flex gap-4">
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/about">About</Link>
+        </li>
+        <li>
+          <Link href="/accounts">Login</Link>
+        </li>
+      </ul>
+    </nav>
   );
 }

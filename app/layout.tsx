@@ -12,15 +12,15 @@ export const metadata = {
   description: "A repository of innovate ideas with AI Assistance System",
 };
 
-export default function RootLayout({
-  children,
-}: {
+type ChildrenProp = {
   children: React.ReactNode;
-}) {
+};
+
+export default function RootLayout({ children }: ChildrenProp) {
   return (
     <html lang="en">
       <body
-        className={`${josefin.className} antialiased bg-primary-50 text-primary-950 min-h-screen p-4`}
+        className={`${josefin.className} antialiased bg-primary-950 text-primary-50 min-h-screen p-4`}
       >
         <Header />
         <div>{children}</div>

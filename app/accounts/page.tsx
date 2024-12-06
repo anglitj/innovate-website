@@ -1,3 +1,3 @@
 export default function Accounts() {
-  return <h1>User Management</h1>;
+  return <h1>User Accounts</h1>;
 }

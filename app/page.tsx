@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex justify-center mt-32">
+    <main className="justify-center mt-32">
       <Image
         className="object-fill object-top"
         src={bg}
@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className="z-10 text-center backdrop-blur-sm ">
         <h2 className="text-7xl">Welcome Innovators</h2>
-        <Link href="/innovation" className="text-4xl underline">
+        <Link href="/innovation/dashboard" className="text-4xl underline">
           Let&apos;s get started
         </Link>
       </div>

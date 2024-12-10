@@ -20,10 +20,10 @@ export default function RootLayout({ children }: ChildrenProp) {
   return (
     <html lang="en">
       <body
-        className={`${josefin.className} antialiased bg-primary-950 text-primary-50 min-h-screen p-4`}
+        className={`${josefin.className} antialiased bg-primary-950 text-primary-50 min-h-screen p-4 flex flex-col`}
       >
         <Header />
-        <div>{children}</div>
+        <div className="grid flex-1">{children}</div>
       </body>
     </html>
   );

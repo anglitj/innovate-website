@@ -21,7 +21,7 @@ export default function Navigation() {
           <Link href="/">Home</Link>
         </li>
         <li className="transition ease-in-out hover:scale-110">
-          <Link href="/innovation">Innovations</Link>
+          <Link href="/innovation/dashboard">Innovations</Link>
         </li>
         <li className="transition ease-in-out hover:scale-110">
           <Link href="/about">About</Link>
